@@ -1,0 +1,37 @@
+body {
+  background-color: #24418c;
+  margin: 0 100px;
+}
+footer {
+  position: fixed;
+  bottom: 210px;
+  width: 100%;
+  text-align: center;
+}
+
+ul,
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.column {
+  height: 70vh;
+  text-align: center;
+}
+#content {
+  background-color: #5b7fbd;
+  width: 70%;
+}
+#content li {
+  list-style: none;
+}
+#nav {
+  background-color: #b0cfff;
+  width: 30%;
+}
+#wrap {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: row;
+}
