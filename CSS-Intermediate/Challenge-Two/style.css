@@ -1,0 +1,28 @@
+.col-4 {
+  width: 33%;
+  border: 1px solid black;
+  height: 50px;
+}
+.col-6 {
+  width: 50%;
+  border: 1px solid black;
+  height: 50px;
+}
+.col-12 {
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+}
+@media (max-width: 765px) and (max-width: 960px) {
+  .col-4 {
+    width: 50%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+@media (min-width: 765px) {
+  .col-4 {
+    width: 100%;
+  }
+}
