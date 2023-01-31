@@ -1,0 +1,38 @@
+.container {
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+header {
+  border: 1px solid black;
+  margin: 10px;
+  height: 70px;
+  background-color: blueviolet;
+}
+.row {
+  display: flex;
+}
+.one {
+  border: 1px solid black;
+  margin: 10px;
+  height: 350px;
+  width: 30%;
+  background-color: brown;
+}
+.two {
+  border: 1px solid black;
+  margin: 10px;
+  height: 350px;
+  width: 30%;
+  background-color: green;
+}
+.three {
+  border: 1px solid black;
+  margin: 10px;
+  height: 350px;
+  width: 30%;
+  background-color: orange;
+}
