@@ -1,0 +1,37 @@
+.container {
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+.row {
+  display: inline-flex;
+}
+.one,
+.three,
+.five {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  border: 1px solid black;
+}
+.two,
+.four,
+.six {
+  width: 200px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  border: 1px solid black;
+}
+.seven {
+  width: 340px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid black;
+}
